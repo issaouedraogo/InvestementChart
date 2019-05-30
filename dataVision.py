@@ -1,0 +1,11 @@
+from graphics import *
+win = GraphWin("Investement Growth Chart", 320, 240)
+Text(Point(20, 230), '0.0K').draw(win)
+Text(Point(20, 180), '2.5K').draw(win)
+Text(Point(20, 130), '5.0K').draw(win)
+Text(Point(20, 80), '7.5K').draw(win)
+Text(Point(20, 30), '10.0K').draw(win)
+Text(Point(50, 240), '1 y').draw(win)
+Text(Point(75, 240), '1 y').draw(win)
+win.getMouse()
+win.close()
